@@ -1,0 +1,158 @@
+body{
+  background-color: #1A3C40;
+}
+.playing-section{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.player1{
+  background-color: #005555;
+  margin-right: 1.1rem;
+}
+.player2{
+  background-color: #125B50;
+}
+.your-cards{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  text-align: center;
+}
+.your-cards div img{
+
+  border-radius: 50%;
+  width:55%
+
+}
+.player-stats{
+  text-align: left;
+  padding: 1.1rem;
+}
+.player-stats p{
+    margin: 0;
+    font-size: 1.1rem;
+}
+.player-stats h2{
+  text-align: center;
+  margin: 0;
+  color:white;
+}
+.player-stats a{
+  text-decoration: none;
+  background-color: black;
+  color:white;
+  padding: 2%;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.your-cards .player{
+  background-color: grey;
+  margin:1.1rem;
+}
+
+
+.player1  img{
+  border-radius: 100%;
+}
+
+.player1 a{
+  display: inline-block;
+  text-decoration: none;
+  color:#F8CB2E;
+  font-size: 1.1rem;
+  background-color: #251D3A;
+  padding: 2%;
+  text-align: center;
+  margin-top: 1.01rem;
+  margin-left: 1.01rem;
+}
+.player-container{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.stats-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.player2 img{
+  border-radius: 100%;
+}
+.cardback{
+  text-align: center;
+  border-radius: 0;
+}
+.player2 a{
+  display: inline-block;
+  text-decoration: none;
+  color:#F8CB2E;
+  font-size: 1.1rem;
+  background-color: #251D3A;
+  padding: 2%;
+  text-align: center;
+  margin-top: 1.01rem;
+  margin-left: 1.01rem;
+}
+
+.green{
+  background-color: green;
+}
+
+.points-display{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+@media (max-width:1098px) {
+  .player1 img{
+    width:95%;
+    padding: 1.1rem;
+  }
+  .player2 img{
+    width:95%;
+    padding: 1.1rem;
+  }
+  .cardback{
+    width:50%;
+  }
+}
+@media(max-width:1049px){
+  .player-container{
+    grid-template-columns: 100%;
+    padding: 1.2rem;
+  }
+  .player-container img{
+    width:50%;
+
+  }
+  .player-container h2{
+    text-align: center;
+  }
+  .res{
+    text-align: center;
+    width:120%;
+  }
+  .cardback{
+    width:50%;
+  }
+
+}
+
+@media (max-width:715px){
+  .playing-section{
+    grid-template-columns: 100%;
+  }
+  .player-container h2{
+    margin: 0;
+  }
+  /* .player-container{
+    grid-template-columns: 50% 50%;
+    padding: 1.2rem;
+  } */
+  .player1 a{
+    margin-left:1.1rem ;
+    padding: 1.01;
+  }
+
+}
