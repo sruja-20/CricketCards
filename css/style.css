@@ -140,8 +140,8 @@ body{
 }
 
 @media (max-width:715px){
-  .playing-section{
-    grid-template-columns: 100%;
+ .playing-section{
+    grid-template-columns: 50% 50%;
   }
   .player-container h2{
     margin: 0;
@@ -153,6 +153,10 @@ body{
   .player1 a{
     margin-left:1.1rem ;
     padding: 1.01;
+  }
+  .stats-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
 }
